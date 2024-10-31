@@ -51,7 +51,7 @@ Troubleshooting Steps:
 ## License
 This project is licensed uner the MIT License - see the LICENSE.md file for details.
 
-Acknowledgements
+## Acknowledgements
 Inspired by tge open-source community and resources on OOP and exception handling in Python, including:
 - awesome-readme
 - dbader
