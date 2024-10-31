@@ -2,7 +2,7 @@
 
 The Student Grading System is a Python application that helps manage student records and grades efficiently by using object-oriented programming. It allows users to add and manage students, assign grades in multiple subjects, calculate averages, and sort or search student records.
 
-##DESCRIPTION
+## DESCRIPTION
 This project provides a streamlined solution for tracking student academic performance. Each student is represented as an object with attributes for name and subject grades. The program allows users to add students, assign or update subject-specific grades, calculate the average score, and display all student information. For enhanced user control, students can be sorted by name or average grade, with exception handling and validations to ensure data integrity.
 
 The system includes:
@@ -39,16 +39,16 @@ Troubleshooting Steps:
 - Verify student names are spelled correctly.
 - Ensure grades are valid integers within specified range.
 
-## Authors
+###### Authors
 -Katlego Angela Mokae
    - Contact Info: bida23-106@thuto.bac.ac.bw
    - GitHub: katlegomokae
 
-#### Version History
+###### Version History
 - 0.2: Added sorting functionality, exception handling improvements.
 - 0.1: Initial release with basic student and grade management features
 
-#### License
+###### License
 This project is licensed uner the MIT License - see the LICENSE.md file for details.
 
 Acknowledgements
