@@ -49,9 +49,9 @@ Troubleshooting Steps:
 - 0.1: Initial release with basic student and grade management features
 
 ## License
-This project is licensed uner the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ## Acknowledgements
-Inspired by tge open-source community and resources on OOP and exception handling in Python, including:
+Inspired by the open-source community and resources on OOP and exception handling in Python, including:
 - awesome-readme
 - dbader
