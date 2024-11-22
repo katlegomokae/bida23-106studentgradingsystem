@@ -40,11 +40,11 @@ To run the program:
 1. Open your terminal or command prompt.
 
    
-2. Navigate to the directory containing gradingsystem.py
+2. Navigate to the directory containing grading_system.py
 
    
 3. Run the folowing command:
-    python gradingsystem.py
+    python grading_system.py
 
    
 4. Follow the on-screen prompts to add students, assign grades, and interact with the grading system.
