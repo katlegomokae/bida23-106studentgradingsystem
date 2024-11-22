@@ -4,22 +4,15 @@ class Student:
         self.grades = {}
 
     def add_grade(self, subject, grade):
-        if 0 <= grade <= 100:
-            self.grades[subject] = grade
-        else:
-            raise ValueError("Grade must be between 0 and 100.")
+        if not (0 <= grade <= 100):
+            raise InvalidGradeError("Grade must be between 0 and 100.")
+        self.grades[subject] = grade
 
-    def update_grade(self, subject, new_grade):
-        if subject in self.grades:
-            if 0 <= new_grade <= 100:
-                self.grades[subject] = new_grade
-            else:
-                raise ValueError("Grade must be between 0 and 100.")
-        else:
-            raise KeyError(f"No grade found for {subject}")
-
-    def get_average(self):
-        return sum(self.grades.values()) / len(self.grades) if self.grades else 0
+    def calculate_average(self):
+        if not self.grades:
+            return 0
+        return sum(self.grades.values()) / len(subjects)
 
     def __str__(self):
-        return f"Student: {self.name}, Grades: {self.grades}, Average: {self.get_average()}"
+        grade_details = ", ".join(f"{sub}: {grade}" for sub, grade in self.grades.items())
+        return f"Student: {self.name}, Grades: [{grade_details}], Average: {self.calculate_average():.2f}"
