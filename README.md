@@ -8,10 +8,20 @@ This project provides a streamlined solution for tracking student academic perfo
 The system includes:
 
 -Adding and removing student records
+
+
 -Assigning grades per subject with validation (grades must be 0-100)
+
+
 -Viewing individual student details or all records
+
+
 -Searching for specific students and sorting by name or average grade
+
+
 -Custom exception handling for missing students and invalid grades
+
+
 
 ## GETTING STARTED
 Before installing the program, make sure to have the following prerequisites installed;
