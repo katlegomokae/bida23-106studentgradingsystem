@@ -19,7 +19,7 @@ Python 3.6 or higher and any operating system that supports Python i.e MacOS, Wi
 
 ## INSTALLING
 CLONE or downlowad the project files from the repository:
-git clone https://github.com/katlegomokae/studentgradingsystem.git
+git clone https://github.com/katlegomokae/bida23-106studentgradingsystem.git
 Navigate to the project directory:
 cd student-grading-system
 
