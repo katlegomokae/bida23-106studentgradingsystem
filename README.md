@@ -36,9 +36,15 @@ cd bida23-106studentgradingsystem
 ## Executing Program
 To run the program:
 1. Open your terminal or command prompt.
+
+   
 2. Navigate to the directory containing main.py
+
+   
 3. Run the folowing command:
-   python main.py
+    python main.py
+
+   
 4. Follow the on-screen prompts to add students, assign grades, and interact with the grading system.
 
 ## Help
